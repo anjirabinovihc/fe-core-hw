@@ -1,0 +1,27 @@
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.wrapper {
+  margin: 50px auto;
+  width: 550px;
+  padding: 40px;
+  box-shadow: 0px 0px 8px 0px #000000;
+  font-family: arial;
+}
+
+/*article*/
+
+.title__two {
+  padding-bottom: 40px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.plane {
+  width: 100%;
+}
+.title__three {
+  font-size: 17px;
+  font-weight: 700;
+}
