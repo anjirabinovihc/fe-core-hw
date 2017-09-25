@@ -31,4 +31,5 @@
 }
 .menu__link:hover {
   color: red;
+  font-size: 15px;
 }
