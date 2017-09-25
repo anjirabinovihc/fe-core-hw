@@ -26,6 +26,7 @@
  line-height: 40px;
  color: white;
  text-decoration: none;
+ font-family: arial;
  transition: 1s;
 }
 .menu__link:hover {
