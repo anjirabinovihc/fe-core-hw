@@ -1,0 +1,33 @@
+
+.page__nav {
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px 0px #929292;
+}
+.menu {
+  margin: 0 auto;
+  width: 490px;
+}
+.menu__item {
+  display: inline-block;
+  margin-right: 60px;
+  width: 120px;
+  text-align: center;
+  transition: 1s;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__item:hover {
+  background-color: #494854;
+}
+.menu__link {
+ display: block;
+ line-height: 40px;
+ color: white;
+ text-decoration: none;
+ transition: 1s;
+}
+.menu__link:hover {
+  color: red;
+}
