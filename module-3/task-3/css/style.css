@@ -1,0 +1,16 @@
+@import "article__top.css";
+@import "article__center.css";
+@import "article__bottom.css";
+@import "list.css";
+
+.wrapper {
+  margin: 0 auto;
+  padding: 60px 40px;
+  width: 480px;
+  text-align: justify;
+  box-shadow: 0px 0px 7px 0px #000000;
+}
+.text {
+  font-size: 12px;
+  color: #4e5050;
+}

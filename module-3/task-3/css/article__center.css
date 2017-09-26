@@ -1,0 +1,18 @@
+.article__center {
+  margin-top: 52px;
+}
+.principles {
+  padding-left: 34px;
+  padding-right: 40px;
+}
+.principles__item {
+  margin-bottom: 18px;
+}
+.principles__item:last-child {
+  margin-bottom: 0;
+}
+.title__three {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
