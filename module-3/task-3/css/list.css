@@ -3,9 +3,8 @@
   padding-left: 40px;
 }
 .list {
-  display: inline-block;
   margin-right: 50px;
-  vertical-align: top;
+  columns: 2;
 }
 .list:last-child {
   margin-right: 0;
