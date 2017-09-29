@@ -1,0 +1,20 @@
+.task__3 {
+  margin: 0 auto;
+  width: 300px;
+  box-shadow: 0px 0px 7px 0px #000000;
+}
+.color__item {
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  color: #0E1116;
+}
+.color__item:nth-of-type(3n+1) {
+  background-color: #88292F;
+}
+.color__item:nth-of-type(3n+2) {
+  background-color: #5DB7DE;
+}
+.color__item:nth-of-type(3n+3) {
+  background-color: #0D5D56;
+}

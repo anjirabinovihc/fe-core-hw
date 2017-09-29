@@ -1,0 +1,26 @@
+
+.nav {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 840px;
+  background-color: #062157;
+}
+.nav__item {
+  float: left;
+  width: 120px;
+  text-align: center;
+  transition: 1s;
+}
+.nav__link {
+  display: block;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f2eee4;
+  transition: 1s;
+}
+.nav__item:hover a {
+  background-color: #ccd0d6;
+  color: black;
+  font-weight: bold;
+}

@@ -1,0 +1,26 @@
+@import "nav.css";
+@import "task__1.css";
+@import "task__2.css";
+@import "task__3.css";
+@import "task__4.css";
+@import "task__5.css";
+@import "task__6.css";
+@import "task__7.css";
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 1170px;
+}
+.title__two {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
