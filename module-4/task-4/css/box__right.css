@@ -1,0 +1,39 @@
+.box__right {
+  float: left;
+  padding-left: 38px;
+  width: 282px;
+}
+.principles {
+  margin-top: 48px;
+  counter-reset: principles;
+}
+.principles__item {
+  margin-bottom: 34px;
+}
+.principles__item:last-child {
+  margin-bottom: 0;
+}
+.principles__article {
+  float: left;
+  width: calc(100% - 50px);
+}
+.text__befor::before {
+  display: inline-block;
+  float: left;
+  /*padding: 8px;*/
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  content: counter(principles);
+  counter-increment: principles;
+  background: #38afe5;
+  border-radius: 50%;
+}
+.title__three {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
