@@ -1,0 +1,19 @@
+@import "nav.css";
+@import "slider.css";
+@import "gallery.css";
+@import "footer.css";
+
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.body {
+  padding-top: 42px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
