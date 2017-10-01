@@ -12,7 +12,7 @@
   clear: both;
 }
 
-.body {
+body {
   padding-top: 42px;
   background-image: url(../img/background.jpg);
   background-size: cover;
