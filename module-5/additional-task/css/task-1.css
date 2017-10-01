@@ -1,0 +1,23 @@
+.task-1 {
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 156px;
+  background-color: #a1bbe2;
+}
+.logo {
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: white;
+}
+.logo-link {
+  display: block;
+  text-align: center;
+  line-height: 140px;
+  font-size: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: dorsa;
+  color: #263555;
+}

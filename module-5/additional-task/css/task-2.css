@@ -1,0 +1,80 @@
+.task-2 {
+  position: relative;
+  margin: 0 auto;
+  width: 866px;
+  min-height: 160px;
+  background-color: #a1bbe2;
+}
+
+.logo-menu {
+  position: absolute;
+  margin: 0 auto;
+  top: 10px;
+  left: 366px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.menu {
+  padding: 56px 20px;
+}
+.menu-item {
+  position: relative;
+  float: left;
+}
+.menu-item:hover .submenu {
+  display: block;
+}
+.menu-link {
+  display: block;
+  padding: 16px 27px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: white;
+  transition: 1s;
+}
+.menu-link:hover {
+  color: #7a87aa;
+}
+.menu-right {
+  margin-right: 160px;
+}
+
+/*submenu*/
+
+.submenu {
+  position: absolute;
+  display: none;
+  padding: 10px;
+  top: 46px;
+  left: 22px;
+  width: 66px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px #000000;
+}
+.submenu::before {
+  position: absolute;
+  display: block;
+  top: -8px;
+  left: 27px;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/triangle.png);
+  background-size: cover;
+}
+.submenu-link {
+  display: block;
+  font-size: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #6b7488
+}

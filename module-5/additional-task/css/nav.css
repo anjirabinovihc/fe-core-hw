@@ -1,17 +1,21 @@
 
+.nav-body {
+  position: fixed;
+  padding: 20px;
+  top: 360px;
+  left: 2%;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px #000000;
+}
 .nav {
-  margin: 0 auto;
-  padding: 0 10px;
-  width: 862px;
   background-color: #062157;
 }
-.nav__item {
-  float: left;
+.nav-item {
   width: 120px;
   text-align: center;
   transition: 1s;
 }
-.nav__link {
+.nav-link {
   display: block;
   line-height: 40px;
   text-transform: uppercase;
@@ -19,7 +23,7 @@
   color: #f2eee4;
   transition: 1s;
 }
-.nav__item:hover a {
+.nav-item:hover a {
   background-color: #ccd0d6;
   color: black;
   font-weight: bold;
