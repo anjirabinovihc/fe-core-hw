@@ -2,6 +2,7 @@
  .nav {
    position: relative;
    margin: 0 auto;
+   margin-bottom: 50px;
    width: 866px;
  }
 .logo-menu {
@@ -61,8 +62,10 @@
   position: absolute;
   display: none;
   padding: 10px;
-  top: 50px;
-  left: 22px;
+  /*top: 50px;
+  left: 22px;*/
+  left: 50%;
+  transform: translateX(-50%);
   width: 68px;
   background-color: white;
   box-shadow: 0px 0px 5px 0px #000000;

@@ -16,4 +16,37 @@ body {
   padding-top: 42px;
   background-image: url(../img/background.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 60px;
+  width: 1024px;
+  background-color: #ffffff;
+}
+
+/*bottom-top*/
+
+.bottom-top {
+  display: block;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  background-color: #38afe5;
+}
+.bottom-top::after {
+  display: inline-block;
+  content: '';
+  width: 12px;
+  height: 6px;
+  background-image: url(../img/arrow-top.png);
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
 }

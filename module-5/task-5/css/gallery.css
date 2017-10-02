@@ -1,93 +1,65 @@
 .gallery {
-  position: relative;
-  margin: 0 auto;
-  padding: 0 62px;
-  width: 1024px;
-  min-height: 916px;
-  background-color: #ffffff;
+  min-height: 914px;
 }
 .gallery-title {
   margin-bottom: 50px;
+  text-transform: uppercase;
   font-size: 30px;
   font-family: 'Pathway Gothic One', sans-serif;
-  text-transform: uppercase;
+  color: #263555;
 }
 .gallery-item {
   position: relative;
-  overflow: hidden;
-  display: inline-block;
-  margin-right: 30px;
-  width: 277px;
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+}
+.gallery-item:hover > .gallery-info {
+  display: block;
 }
 .gallery-item:last-child {
   margin-right: 0;
 }
 .gallery-img {
+  display: block;
   width: 100%;
-  min-height: 270px;
+  height: auto;
 }
 
-/*gallery*/
+/*.gallery-info*/
 
-.gallery-article {
+.gallery-info {
   position: absolute;
-  padding: 0 8px;
-  padding-top: 22px;
-  padding-bottom: 16px;
-  top: 0px;
-  width: 142px;
+  display: none;
+  padding: 20px 8px;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
   background-color: #193149;
 }
-.article-title {
-  margin-bottom: 22px;
+.info-title {
+  margin-bottom: 26px;
   text-align: center;
-  font-size: 30px;
-  font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'Pathway Gothic One', sans-serif;
   color: #e0e4e7;
 }
-.article-text {
-  text-align: justify;
+.info-text {
   font-size: 10px;
   font-family: arial;
-  line-height: 16px;
-  color: #e0e4e7;
+  line-height: 14px;
+  color: #cbc6c6;
 }
-.article-link {
-  display: block;
-  float: right;
-  margin-top: 16px;
-  width: 62px;
-  text-align: center;
+.info-link {
+  position: absolute;
+  padding: 4px 12px;
+  right: 12px;
+  bottom: 20px;
   text-decoration: none;
   font-size: 12px;
-  font-family: arial;
-  line-height: 20px;
-  border-radius: 10%;
+  border-radius: 5px;
+  color: #000000;
   background-color: #fbf6f9;
-  color: black;
-}
-
-/*bottom-top*/
-
-.bottom-top {
-  position: absolute;
-  right: 16px;
-  bottom: 16px;
-  display: block;
-  padding-top: 4px;
-  padding-left: 9px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #38afe5;
-}
-.bottom-top::after {
-  display: inline-block;
-  content: '';
-  width: 12px;
-  height: 6px;
-  background-image: url(../img/arrow-top.png);
-  background-size: cover;
-  /*background-repeat: no-repeat;*/
 }
