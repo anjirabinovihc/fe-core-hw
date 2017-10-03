@@ -36,8 +36,6 @@
 }
 .control-left {
   float: left;
-  padding-top: 36px;
-  padding-left: 22px;
   width: 45px;
   height: 90px;
   border-radius: 200% 0 0 200% / 100% 0 0 100%;
@@ -49,16 +47,17 @@
 }
 .control-left::before {
   float: left;
-  width: 16px;
-  height: 16px;
+  width: 45px;
+  height: 90px;
   content: '';
   background-image: url(../img/arrow-left.png);
-  background-size: cover;
+  background-size: 38%;
+  background-position-x: 70%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
 }
 .control-right {
   float: left;
-  padding-top: 36px;
-  padding-left: 8px;
   width: 45px;
   height: 90px;
   border-radius: 0 200% 200% 0 / 0 100% 100% 0;
@@ -71,9 +70,12 @@
 .control-right::before {
   display: block;
   float: left;
-  width: 16px;
-  height: 16px;
+  width: 45px;
+  height: 90px;
   content: '';
   background-image: url(../img/arrow-right.png);
-  background-size: cover;
+  background-size: 38%;
+  background-position-x: 70%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
 }
