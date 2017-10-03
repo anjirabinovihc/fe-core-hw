@@ -36,17 +36,18 @@ body {
   bottom: 5%;
   width: 30px;
   height: 30px;
-  text-align: center;
-  line-height: 25px;
+  /*text-align: center;*/
+  /*line-height: 25px;*/
   border-radius: 50%;
   background-color: #38afe5;
 }
 .bottom-top::after {
   display: inline-block;
   content: '';
-  width: 12px;
-  height: 6px;
+  width: 30px;
+  height: 30px;
   background-image: url(../img/arrow-top.png);
-  background-size: cover;
-  /*background-repeat: no-repeat;*/
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
