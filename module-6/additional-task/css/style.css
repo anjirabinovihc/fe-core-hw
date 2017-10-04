@@ -1,0 +1,30 @@
+@import "nav.css";
+@import "task-1.css";
+@import "task-2.css";
+@import "task-3.css";
+
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.wrapper {
+  margin: auto;
+  padding-top: 50px;
+  width: 1170px;
+}
+.title-two {
+  margin-bottom: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: red;
+}
+.shadow {
+  margin-bottom: 70px;
+  box-shadow: 0px 0px 7px 0px #000000;
+}

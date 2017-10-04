@@ -1,0 +1,32 @@
+.task-1 {
+  margin: auto;
+  padding: 20px;
+  width: 400px;
+}
+.social {
+  display: flex;
+  padding: 80px;
+  justify-content: space-around;
+  background-color: #d8bda2;
+}
+.social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.social-link:hover {
+  filter: contrast(60%);
+}
+.bg-twitter {
+    background: url('../img/css_sprites.png') -10px -10px;
+}
+.bg-facebook {
+    background: url('../img/css_sprites.png') -70px -10px;
+}
+.bg-google {
+    background: url('../img/css_sprites.png') -10px -70px;
+}
+.bg-in {
+    background: url('../img/css_sprites.png') -70px -70px;
+}
