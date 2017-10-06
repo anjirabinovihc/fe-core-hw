@@ -1,0 +1,132 @@
+@import "style.css";
+
+.flex-wrapp {
+  display: flex;
+  padding-top: 100px;
+}
+
+/*continer-left */
+
+.continer-left {
+  flex-basis: 72%;
+}
+
+/*section-body*/
+
+.title-two {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #263555;
+}
+
+/*info*/
+
+.info {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 14px;
+  font-family: arial;
+}
+.title-three {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #263555;
+}
+.title-three::before {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  width: 30px;
+  height: 30px;
+  content: '23 APR';
+  text-align: center;
+  font-size: 9px;
+  background-color: #38afe5;
+  border-radius: 50%;
+}
+.info-continer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 16px;
+  left: 43px;
+  width: 86%;
+  font-size: 10px;
+  color: #868f8f;
+}
+
+/*article-body*/
+
+.article-body {
+  display: flex;
+  padding-bottom: 46px;
+  border-bottom: 1px solid #dedbdb;
+}
+.article-body:nth-child(2n) {
+  padding-bottom: 85px;
+  border: none;
+}
+.article-img {
+  margin-right: 20px;
+  max-height: 224px;
+}
+.article-page {
+  flex-basis: 54%;
+  font-family: arial;
+}
+.title-four {
+  font-weight: bold;
+  font-size: 14px;
+}
+.article-text {
+  margin-top: 24px;
+  font-size: 12px;
+}
+.article-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 1px solid #c1bbbb;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #403f40;
+}
+
+/*continer-right*/
+
+.continer-right {
+  margin-left: 38px;
+}
+.categories {
+  margin-bottom: 56px;
+}
+.list-title {
+  margin-bottom: 45px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #263555;
+}
+.list-item {
+  display: flex;
+}
+.list-item::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/layer.png);
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.list-link {
+  display: block;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: arial;
+  color: #263555;
+}
