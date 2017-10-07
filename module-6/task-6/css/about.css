@@ -1,0 +1,135 @@
+@import "style.css";
+
+  .clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.box-top {
+  display: flex;
+  margin-bottom: 60px;
+  padding-top: 116px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dedbdb;
+}
+.section-left {
+  flex-basis: 70%
+}
+.title-two {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+  color: #263555;
+}
+.section-img {
+  float: left;
+  margin-right: 22px;
+  width: 360px;
+}
+.title-three {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: arial;
+  font-weight: bold;
+  color: #263555;
+}
+.section-text {
+  font-size: 12px;
+  font-family: arial;
+  line-height: 15px;
+  color: #4e5050;
+}
+.section-paragraph {
+  display: block;
+  margin-top: 14px;
+}
+
+/*section-right*/
+
+.section-right {
+  flex-basis: 25%;
+  margin-left: 44px;
+}
+.principles {
+  counter-reset: principles;
+}
+.principles-item {
+  display: flex;
+  margin-bottom: 34px;
+}
+.principles-item:last-child {
+  margin-bottom: 0;
+}
+.principles-item::before {
+  margin-right: 12px;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  content: counter(principles);
+  counter-increment: principles;
+  border-radius: 50%;
+  background-color: #38afe5;
+}
+
+/*box-bottom*/
+
+.box-bottom {
+  display: flex;
+}
+.bold {
+  margin-bottom: 28px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.list {
+  margin-top: 36px;
+  padding-bottom: 88px;
+  columns: 2;
+  width: 496px;
+}
+.list-item {
+  display: flex;
+  font-size: 13px;
+  font-family: arial;
+  line-height: 30px;
+  color: #263555;
+}
+.list-item::before {
+  margin-right: 14px;
+  width: 12px;
+  height: 30px;
+  content: '';
+  background-image: url(../img/layer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+
+/*text-testimonial*/
+
+.text-testimonial {
+  margin-bottom: 38px;
+  padding: 24px;
+  border: 1px solid #dfdcdc;
+}
+.text-testimonial::before {
+  display: inline-block;
+  margin-right: 3px;
+  content: "\201c";
+}
+.text-testimonial::after {
+  display: inline-block;
+  margin-left: 3px;
+  content: '\201d';
+}
+.text-mark {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+.text-center {
+  text-align: center;
+}
