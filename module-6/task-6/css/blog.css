@@ -2,6 +2,7 @@
 
 .flex-wrapp {
   display: flex;
+  justify-content: space-between;
   padding-top: 100px;
   padding-bottom: 85px;
 }
@@ -14,6 +15,14 @@
 
 /*section-body*/
 
+.section-body {
+  padding-bottom: 46px;
+  border-bottom: 1px solid #dedbdb;
+}
+.section-body:last-child {
+  padding-bottom: 0;
+  border: none;
+}
 .title-two {
   text-transform: uppercase;
   font-size: 32px;
@@ -62,12 +71,6 @@
 
 .article-body {
   display: flex;
-  padding-bottom: 46px;
-  border-bottom: 1px solid #dedbdb;
-}
-.article-body:nth-child(2n) {
-  border: none;
-  padding-bottom: 0;
 }
 .article-img {
   margin-right: 20px;
@@ -98,9 +101,6 @@
 
 /*continer-right*/
 
-.continer-right {
-  margin-left: 38px;
-}
 .categories {
   margin-bottom: 56px;
 }

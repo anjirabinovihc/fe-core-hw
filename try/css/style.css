@@ -1,0 +1,15 @@
+.wrapper {
+  margin: auto;
+  padding-top: 150px;
+  width: 1000px;
+}
+.triangle {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  transform:matrix(0.586,0.8,-0.8,0.586,40,40);
+  background-color: red;
+}
+.triangle:last-child {
+  margin: 0;
+}

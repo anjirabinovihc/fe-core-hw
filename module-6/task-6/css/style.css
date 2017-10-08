@@ -136,11 +136,15 @@
 .footer-page {
   margin: auto;
   width: 1024px;
+  padding-bottom: 52px;
 }
 .footer-continer {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 26px;
+  padding: 0 136px;
   padding-top: 44px;
+  padding-bottom: 48px;
   background-color: #30455b;
 }
 
@@ -152,12 +156,10 @@
   justify-content: space-around;
   align-content: flex-start;
   flex-basis: 600px;
-  margin-right: 120px;
-  padding-left: 136px;
-  padding-bottom: 48px;
+  /*padding-bottom: 48px;*/
 }
 .footer-link {
-  flex-basis: 120px;
+  flex-basis: 33%;
   margin-bottom: 15px;
   text-align: center;
   text-transform: uppercase;
@@ -224,7 +226,6 @@
 
 .copyright-text {
   margin-top: 24px;
-  padding-bottom: 52px;
   text-align: center;
   font-size: 12px;
   font-family: arial;
