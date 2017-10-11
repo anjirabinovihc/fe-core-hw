@@ -1,0 +1,83 @@
+.task-2 {
+  padding: 1rem;
+}
+.browse-section {
+  margin-bottom: 1.1rem;
+}
+.browse-title {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #263555;
+}
+.title-four {
+  margin-bottom: 0.7rem;
+  font-size: 0.6rem;
+  font-family: arial;
+  color: #4e5050;
+}
+.search-item {
+  position: relative;
+  overflow: hidden;
+  margin-top: 0.7rem;
+  width: 12rem;
+  min-height: 1.5rem;
+}
+.search-item::before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/arrow.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  right: 0;
+  border-right: 1px solid black;
+}
+.browse-sel {
+  position: relative;
+  padding: 0.2rem 0;
+  padding-left: 0.5rem;
+  width: 13rem;
+  font-size: 0.6rem;
+  font-family: arial;
+  color: #868f8f;
+  background: rgba(0, 0, 0, 0);
+}
+.search-opt {
+ background-color: #e3e2e2;
+}
+.button-browse {
+  display: inline-block;
+  margin-top: 3.7rem;
+}
+.button-inp {
+  padding: 0.2rem 1rem;
+  font-size: 0.7rem;
+  font-family: arial;
+  border: 1px solid #d0cccc;
+  border-radius: 0.3rem;
+  background-color: #fbf6fa;
+  cursor: pointer;
+}
+
+/*search*/
+
+.search .title-four {
+  color: #38afe5;
+}
+/*.search-sel {
+  width: 100%;
+  font-size: 0.6rem;
+  font-family: arial;
+  color: #868f8f;
+}*/
+
+/*Departing*/
+
+.continer-inp {
+  margin-top: 1.6rem;
+}

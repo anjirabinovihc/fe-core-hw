@@ -1,0 +1,41 @@
+.task-1 {
+  padding: 1rem;
+}
+.contact-title {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #263555;
+}
+.contact-item {
+  margin-bottom: 1rem;
+}
+.contact-inp {
+  padding-left: 0.4rem;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: arial;
+}
+textarea {
+  padding-left: 0.4rem;
+  font-family: arial;
+  resize: none;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.3rem;
+  /*cursor: pointer;*/
+}
+.button-item {
+  margin-right: 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.3rem;
+  background-color: #fbf6f8;
+  border: 1px solid #b1aaaa;
+  cursor: pointer;
+}
+.button-item:last-child {
+  margin-right: 0;
+}
