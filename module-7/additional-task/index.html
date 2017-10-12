@@ -47,7 +47,7 @@
             <p class="contact-item">
               <input class="contact-inp" type="text" name="subject" value="" required placeholder="subject">
             </p>
-            <textarea class="contact-text" name="name" rows="8" cols="22" required placeholder="message"></textarea>
+            <textarea class="contact-text" name="text" rows="8" cols="22" required placeholder="message"></textarea>
             <div class="button">
              <button class="button-item" type="submit" name="Clear">Clear</button>
              <button class="button-item" type="submit" name="Send">Send</button>
@@ -64,7 +64,7 @@
          <form action="index.html" class="browse">
             <h4 class="title-four">Browse by Tour Operator</h4>
             <p class="search-item">
-              <select class="browse-sel" name="">
+              <select class="browse-sel" name="browse">
                 <option class="search-opt" value="">Browse by Tour Operator</option>
                 <option class="search-opt" value="">Tour Operator</option>
                 <option class="search-opt" value="">Tour Operator</option>
@@ -80,13 +80,13 @@
        <!-- Search -->
 
     <section class="Search">
-      <h3 class="browse-title">Search </h3>
+      <h3 class="browse-title">Search</h3>
       <form class="search" action="index.html" method="post">
        <section>
         <h4 class="title-four ">All Tour Operators</h4>
-        <label class="search-lab" for="">Destination</label>
+        <label class="search-lab" for="destination">Destination</label>
          <p class="search-item">
-           <select class="browse-sel" name="">
+           <select class="browse-sel" name="Tour" id="destination">
             <option class="search-opt" value="">Any destination</option>
             <option class="search-opt" value="">Any destination</option>
            </select>
@@ -95,9 +95,9 @@
           <!-- Departing -->
 
    <div class="continer-inp">
-     <label class="search-lab" for="">Departing</label>
+     <label class="search-lab" for="departing">Departing</label>
       <p class="search-item">
-        <select class="browse-sel" name="">
+        <select class="browse-sel" name="departing" id="departing">
          <option class="search-opt" value="">Any departing</option>
          <option class="search-opt" value="">Any departing</option>
         </select>
@@ -106,9 +106,9 @@
       <!-- price -->
 
     <div class="continer-inp">
-      <label class="search-lab" for="">Price</label>
+      <label class="search-lab" for="price">Price</label>
        <p class="search-item">
-         <select class="browse-sel" name="">
+         <select class="browse-sel" name="Price" id="price">
           <option class="search-opt" value="">Any price</option>
           <option class="search-opt" value="">Any price</option>
          </select>
@@ -117,10 +117,9 @@
         <!-- duration -->
 
       <div class="continer-inp">
-       <label class="search-lab" for="">Duration</label>
-       <label for=""></label>
+       <label class="search-lab" for="duration">Duration</label>
         <p class="search-item">
-          <select class="browse-sel" name="">
+          <select class="browse-sel" name="Duration" id="duration">
            <option class="search-opt" value="">Any duration</option>
             <option class="search-opt" value="">Any duration</option>
           </select>
