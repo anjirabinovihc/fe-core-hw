@@ -70,7 +70,11 @@
 .search .title-four {
   color: #38afe5;
 }
-
 .continer-inp {
   margin-top: 1.6rem;
+}
+.search-lab {
+  font-size: 0.6rem;
+  font-family: arial;
+  color: #4e5050;
 }
