@@ -2,6 +2,8 @@
 @import "task-1.css";
 @import "task-2.css";
 @import "task-3.css";
+@import "task-4.css";
+@import "task-5.css";
 
 html {
   font-size: 16px;
@@ -21,9 +23,10 @@ html {
   align-items: center;
   flex-flow: column wrap;
   margin: auto;
-  padding-top: 3.5rem;
+  padding: 3.5rem 0;
   width: 75rem;
   min-height: 100vh;
+  box-shadow: 0px 0px 7px 0px #000000;
 }
 
 .title-two {

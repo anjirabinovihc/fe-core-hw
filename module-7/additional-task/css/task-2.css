@@ -18,24 +18,22 @@
   color: #4e5050;
 }
 .search-item {
+  display: flex;
+  justify-content: flex-end;
   position: relative;
-  overflow: hidden;
   margin-top: 0.7rem;
-  width: 12rem;
-  min-height: 1.5rem;
 }
 .search-item::before {
   display: block;
   position: absolute;
   content: '';
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 19px;
   background-image: url(../img/arrow.png);
-  background-size: 70%;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  right: 0;
-  border-right: 1px solid black;
+  border-left: 1px solid #929292;
 }
 .browse-sel {
   position: relative;
@@ -46,6 +44,9 @@
   font-family: arial;
   color: #868f8f;
   background: rgba(0, 0, 0, 0);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 .search-opt {
  background-color: #e3e2e2;
@@ -69,14 +70,6 @@
 .search .title-four {
   color: #38afe5;
 }
-/*.search-sel {
-  width: 100%;
-  font-size: 0.6rem;
-  font-family: arial;
-  color: #868f8f;
-}*/
-
-/*Departing*/
 
 .continer-inp {
   margin-top: 1.6rem;

@@ -1,0 +1,50 @@
+.task-5 {
+  padding: 1rem;
+  width: 43rem;
+}
+.article-body {
+  display: flex;
+}
+.article-img {
+  margin-right: 1.2rem;
+  max-height: 14rem;
+  transition: all 1s;
+}
+.article-img:hover {
+  transform: rotate(45deg);
+}
+.article-page {
+  flex-basis: 54%;
+  font-family: arial;
+}
+.gellentesque-title {
+  font-weight: bold;
+  font-size: 0.8rem;
+  transition: all 0.5s;
+}
+.gellentesque-title:hover {
+  transform: scale(1.2);
+}
+.article-text {
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
+  color: #4e5050;
+  transition: all 1s;
+}
+.article-text:hover {
+  color: #e89645;
+}
+.article-button {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #c1bbbb;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #403f40;
+  transition: all 1s;
+}
+.article-button:hover {
+  transform: scale(2.1, 1.2);
+}
