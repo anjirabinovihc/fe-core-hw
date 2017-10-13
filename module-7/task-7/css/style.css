@@ -1,0 +1,255 @@
+html {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+.body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*nav*/
+
+.header-page {
+  margin-bottom: 3.1rem;
+  padding-top: 2.9rem;
+}
+.nav {
+  margin: auto;
+  width: 54.6rem;
+}
+
+.menu {
+ display: flex;
+ align-items: center;
+}
+.menu-logo {
+  flex-basis: 8.7rem;
+}
+.logo-menu {
+  border-radius: 50%;
+  background-color: white;
+}
+.logo-link {
+  display: block;
+  text-align: center;
+  line-height: 8.75rem;
+  font-size: 3.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: dorsa;
+  color: #263555;
+}
+.menu-item {
+  position: relative;
+  flex-basis: 7.5rem;
+}
+.menu-item:hover .submenu {
+ display: block;
+}
+.menu-link {
+ display: block;
+ text-align: center;
+ font-size: 1.7rem;
+ line-height: 3.1rem;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-family: 'Pathway Gothic One', sans-serif;
+ color: white;
+ transition: all 1s;
+}
+.menu-link:hover {
+ color: #7a87aa;
+}
+
+/*submenu*/
+
+.submenu {
+ position: absolute;
+ display: none;
+ padding: 0.6rem;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 4.25rem;
+ background-color: white;
+ box-shadow: 0px 0px 5px 0px #000000;
+}
+.submenu::before {
+ position: absolute;
+ display: inline-block;
+ top: -1%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ content: '';
+ width: 0px;
+ height: 0px;
+ border-style: solid;
+ border-width: 0 5px 10px 5px;
+ border-color: transparent transparent #f8f8fc transparent;
+}
+.submenu-link {
+ display: block;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 1.2rem;
+ font-family: 'Pathway Gothic One', sans-serif;
+ line-height: 1.5rem;
+ color: #6b7488
+}
+
+/*wrapper*/
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 3.75rem;
+  padding-top: 6.18rem;
+  padding-bottom: 8rem;
+  width: 64rem;
+  background-color: #ffffff;
+}
+
+/*bottom-top*/
+
+.bottom-top {
+  display: block;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #38afe5;
+}
+.bottom-top::after {
+  display: inline-block;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/arrow-top.png);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*footer*/
+
+.footer-page {
+  margin: auto;
+  width: 64rem;
+  padding-bottom: 3.2rem;
+}
+.footer-continer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.6rem;
+  padding: 0 8.5rem;
+  padding-top: 2.7rem;
+  padding-bottom: 3rem;
+  background-color: #30455b;
+}
+
+/*footer-nav*/
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-basis: 37.5rem;
+}
+.footer-link {
+  flex-basis: 33%;
+  margin-bottom: 0.93rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
+.footer-link:nth-child(n+4) {
+  margin-bottom: 0;
+}
+
+/*contact-footer*/
+
+.contact-footer {
+  color: #ffffff;
+}
+.footer-title {
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+.footer-text {
+  font-size: 0.75rem;
+  font-family: arial;
+  line-height: 1.2rem;
+}
+
+/*social*/
+
+.social-continer {
+  margin: auto;
+  width: 13.5rem;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+.social-link {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.social-link:hover {
+  filter: contrast(60%);
+}
+.bg-twitter {
+    background: url('../img/css_sprites.png') -10px -10px;
+}
+.bg-facebook {
+    background: url('../img/css_sprites.png') -70px -10px;
+}
+.bg-google {
+    background: url('../img/css_sprites.png') -10px -70px;
+}
+.bg-in {
+    background: url('../img/css_sprites.png') -70px -70px;
+}
+
+/*copyright*/
+
+.copyright-text {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: arial;
+  line-height: 1.56rem;
+  color: #ffffff;
+}
+.copyright-border::after {
+  display: inline-block;
+  margin: 0 0.37rem;
+  content: '';
+  width: 1px;
+  height: 11px;
+  background-color: #ffffff;
+}
+.copyright-border::before {
+  display: inline-block;
+  margin: 0 0.37rem;
+  content: '';
+  width: 1px;
+  height: 11px;
+  background-color: #ffffff;
+}
