@@ -1,0 +1,34 @@
+.parrot {
+  display: none;
+}
+.palm {
+  display: none;
+}
+.yacht {
+  display: none;
+}
+
+@media only screen and (min-width : 480px) {
+  .beach {
+    display: none;
+  }
+  .parrot {
+    display: block;
+  }
+}
+@media only screen and (min-width : 769px) {
+  .parrot {
+    display: none;
+  }
+  .palm {
+    display: block;
+  }
+}
+@media only screen and (min-width : 1200px) {
+  .palm {
+    display: none;
+  }
+  .yacht {
+    display: block;
+  }
+}

@@ -1,0 +1,32 @@
+.task-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box-yellow {
+  flex-basis: 100%;
+  min-height: 10rem;
+  background-color: yellow;
+  border: 1px solid black;
+}
+.box-blue {
+  flex-basis: 52%;
+  min-height: 30rem;
+  background-color: blue;
+  border: 1px solid black;
+}
+.box-gray {
+  flex-basis: 20%;
+  background-color: grey;
+  border: 1px solid black;
+}
+.box-red {
+   flex-basis: 20%;
+  background-color: red;
+}
+.box-green {
+  flex-basis: 100%;
+  min-height: 10rem;
+  background-color: green;
+  border: 1px solid black;
+}
