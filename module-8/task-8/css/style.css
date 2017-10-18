@@ -1,0 +1,46 @@
+@import "base.css";
+@import "typography.css";
+@import "header.css";
+@import "gallery.css";
+@import "footer.css";
+
+.body-page {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*wrapper*/
+
+.wrapper {
+  margin: auto;
+  padding: 0 2.25rem;
+  padding-top: 3.62rem;
+  padding-bottom: 4.75rem;
+  max-width: 64rem;
+  min-width: 20rem;
+  background-color: #ffffff;
+}
+
+/*bottom-top*/
+
+.bottom-top {
+  display: block;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #38afe5;
+}
+.bottom-top::after {
+  display: inline-block;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/arrow-top.png);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

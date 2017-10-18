@@ -1,0 +1,11 @@
+h1 {
+  text-transform: uppercase;
+  font-family: dorsa;
+}
+h2,h3,h4,h5,h6 {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+h2 {
+  text-transform: uppercase;
+  color: #263555;
+}
