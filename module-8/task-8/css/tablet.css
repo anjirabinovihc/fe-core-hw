@@ -1,0 +1,111 @@
+@media screen and (min-width: 768px) {
+  .header-page {
+    margin-bottom: 1.25rem;
+  }
+  .logo {
+    width: 6.43rem;
+    height: 6.43rem;
+  }
+  .logo-link {
+    line-height: 6.44rem;
+    font-size: 2.68rem;
+  }
+  .menu-link {
+    font-size: 1.5rem;
+  }
+  .submenu {
+    padding: 0.5rem;
+    top: 2.2rem;
+    width: 3.75rem;
+  }
+
+  /*wrapper*/
+
+  .wrapper {
+    padding-top: 5.31rem;
+  }
+  .tablet {
+    display: block;
+  }
+  .gallery-title {
+    margin-bottom: 2.87rem;
+  }
+  .gallery-item:nth-child(6) {
+    margin-bottom: 2.5rem;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery-item {
+    flex-basis: 49%;
+  }
+
+  /*footer*/
+
+  .footer-continer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-link {
+    font-size: 1rem;
+  }
+
+  /*contact-footer*/
+
+  .contact-footer {
+    display: block;
+    margin: 0;
+    width: 25%;
+  }
+  .footer-title {
+    font-size: 1.1rem;
+  }
+  .footer-text {
+    margin-top: 0.7rem;
+    font-size: 0.75rem;
+  }
+  .tel::before {
+    display: none;
+  }
+  .info::before {
+    display: none;
+  }
+
+  /*social*/
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-link {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .bg-twitter {
+      background: url('../img/css_sprites.png') -10px -10px;
+  }
+  .bg-facebook {
+      background: url('../img/css_sprites.png') -70px -10px;
+  }
+  .bg-google {
+      background: url('../img/css_sprites.png') -10px -70px;
+  }
+  .bg-in {
+      background: url('../img/css_sprites.png') -70px -70px;
+  }
+
+  /*copyright-text*/
+
+  .copyright-text {
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+  }
+  .copyright-border::before {
+    height: 0.56rem;
+  }
+  .copyright-border::after {
+    height: 0.56rem;
+  }
+}

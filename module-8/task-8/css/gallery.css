@@ -1,3 +1,6 @@
+.mobile {
+  display: none;
+}
 .gallery-title {
   margin-bottom: 2.37rem;
   font-size: 1.75rem;
@@ -6,7 +9,7 @@
   position: relative;
   margin-bottom: 2.5rem;
 }
-.gallery-item:last-child {
+.gallery-item:nth-last-child(-n+4) {
   margin-bottom: 0;
 }
 .gallery-item:hover > .gallery-img {

@@ -1,0 +1,62 @@
+@media screen and (min-width: 1024px) {
+  .header-page {
+    margin-bottom: 6rem;
+    position: relative;
+    padding-top: 6rem;
+    max-width: 64rem;
+    min-width: 20rem;
+  }
+  .logo {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    margin-bottom: 0;
+    width: 8.75rem;
+    height: 8.75rem;
+    transform: translate(-50% , -50%);
+  }
+  .logo-link {
+    font-size: 3.75rem;
+    line-height: 9rem;
+  }
+
+  /*menu*/
+
+  .menu {
+    width: 80%;
+  }
+  .menu-item {
+    margin-bottom: 0;
+    flex-basis: 10%;
+  }
+  .menu-item:nth-child(3) {
+    margin-right: 14rem;
+  }
+  .menu-link {
+    padding: 0.7rem 0;
+    font-size: 1.75rem;
+  }
+
+  /*.submenu*/
+
+  .submenu {
+    top: 3rem;
+  }
+  .submenu-link {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  /*.gallery*/
+
+  .gallery-title {
+    margin-bottom: 3.1rem;
+    font-size: 2rem;
+  }
+  .gallery-item {
+    flex-basis: 32%;
+  }
+  .mobile {
+    display: block;
+  }
+}

@@ -3,6 +3,8 @@
 @import "header.css";
 @import "gallery.css";
 @import "footer.css";
+@import "tablet.css";
+@import "desktop.css";
 
 .body-page {
   background-image: url(../img/background.jpg);
@@ -20,6 +22,12 @@
   max-width: 64rem;
   min-width: 20rem;
   background-color: #ffffff;
+}
+@media screen and (min-width: 1024px)  {
+  .wrapper {
+    padding-top: 6.1rem;
+    padding-bottom: 8.75rem;
+  }
 }
 
 /*bottom-top*/
