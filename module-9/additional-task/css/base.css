@@ -1,0 +1,20 @@
+html {
+  font-size: 16px;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.beige {
+  background-color: beige;
+}
+.pink {
+  background-color: pink;
+}
