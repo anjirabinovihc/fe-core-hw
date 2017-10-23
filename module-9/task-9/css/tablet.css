@@ -24,22 +24,20 @@
   .wrapper {
     padding-top: 5.31rem;
   }
-  .tablet {
-    display: block;
-  }
   .gallery-title {
     margin-bottom: 2.87rem;
   }
-  .gallery-item:nth-child(6) {
-    margin-bottom: 2.5rem;
-  }
   .gallery {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
-  .gallery-item {
-    flex-basis: 49%;
+  .gallery-item:nth-child(7) {
+    display: block;
+  }
+  .gallery-item:nth-child(8) {
+    display: block;
+  }
+  .gallery-item:nth-child(6) {
+    margin-bottom: 2.5rem;
   }
 
   /*footer*/
