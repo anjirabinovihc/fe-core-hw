@@ -10,7 +10,7 @@ img {
   width: 100%;
   height: auto;
 }
-.clearfix::before {
+.clearfix::after {
   display: block;
   content: '';
   clear: both;

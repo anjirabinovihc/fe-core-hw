@@ -50,14 +50,14 @@
     font-size: 0.81rem;
   }
   .overflow {
-    overflow: visible;
+    display: block;
+  }
+  .indentation:nth-last-child(-n+2) {
+    margin-bottom: 0;
   }
   .section-paragraph {
     display: block;
     margin-top: 1rem;
-  }
-  .indentation {
-    margin-bottom: 0;
   }
   .list-item {
     font-size: 0.9rem;
