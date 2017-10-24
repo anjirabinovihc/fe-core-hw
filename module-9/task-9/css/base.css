@@ -1,4 +1,7 @@
-
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
 html {
   font-size: 16px;
 }
@@ -6,4 +9,9 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+.clearfix::before {
+  display: block;
+  content: '';
+  clear: both;
 }

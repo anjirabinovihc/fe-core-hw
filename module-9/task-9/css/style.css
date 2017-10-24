@@ -2,6 +2,7 @@
 @import "typography.css";
 @import "header.css";
 @import "gallery.css";
+@import "about.css";
 @import "footer.css";
 @import "tablet.css";
 @import "desktop.css";
@@ -16,6 +17,9 @@
 
 .wrapper {
   margin: auto;
+  padding: 0 2.25rem;
+  padding-top: 3.62rem;
+  padding-bottom: 4.75rem;
   max-width: 64rem;
   min-width: 20rem;
   background-color: #ffffff;

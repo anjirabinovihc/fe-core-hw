@@ -1,0 +1,138 @@
+
+.about-title {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+.about-img {
+  display: block;
+  margin-bottom: 1.8rem;
+}
+.about-title-three {
+  margin-bottom: 1.3rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.section-text {
+  font-size: 0.75rem;
+  font-family: arial;
+  line-height: 1rem;
+  color: #4e5050;
+}
+.overflow {
+  overflow: hidden;
+  max-height: 5.2rem;
+}
+.indentation {
+  margin-bottom: 3.25rem;
+}
+.indentation:last-child {
+  margin-bottom: 0;
+}
+
+/*section-right*/
+
+.principles {
+  counter-reset: principles;
+}
+.principles-item {
+  display: flex;
+  margin-bottom: 2.1rem;
+}
+.principles-item:last-child {
+  margin-bottom: 0;
+}
+.principles-item::before {
+  flex-shrink: 0;
+  margin-right: 0.75rem;
+  width: 1.87rem;
+  height: 1.87rem;
+  text-align: center;
+  line-height: 1.87rem;
+  content: counter(principles);
+  counter-increment: principles;
+  border-radius: 50%;
+  background-color: #38afe5;
+}
+
+/*border*/
+
+.border {
+  margin-bottom: 3.25rem;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #dedbdb;
+}
+
+/*box-bottom*/
+
+.bold {
+  margin-bottom: 1.75rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.list {
+  margin-top: 2.25rem;
+  columns: 2;
+}
+.list-item {
+  display: flex;
+  font-size: 0.7rem;
+  font-family: arial;
+  line-height: 1.87rem;
+  color: #263555;
+}
+.list-item::before {
+  margin-right: 0.8rem;
+  width: 0.75rem;
+  height: 1.87rem;
+  content: '';
+  background-image: url(../img/layer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+
+/*text-testimonial*/
+
+.continer-testimonial {
+  position: relative;
+  margin: auto;
+  padding: 24px;
+  width: 16.8rem;
+  border: 1px solid #dfdcdc;
+}
+.continer-testimonial::before {
+  position: absolute;
+  display: inline-block;
+  top: 5rem;
+  left: 2.7rem;
+  content: '';
+  width: 20px;
+  height: 20px;
+  transform: matrix(1.2,1.1,-1.2,1.1,80,39);
+  border-right: 1px solid #dfdcdc;
+  border-bottom: 1px solid #dfdcdc;
+  background-color: #ffffff;
+}
+.text-testimonial::before {
+  display: inline-block;
+  margin-right: 3px;
+  content: "\201c";
+}
+.text-testimonial::after {
+  display: inline-block;
+  margin-left: 3px;
+  content: '\201d';
+}
+.continer-name {
+  margin-top: 46px;
+}
+.text-mark {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.text-center {
+  text-align: center;
+}
