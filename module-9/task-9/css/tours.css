@@ -1,38 +1,28 @@
-@import "style.css";
-
 
 .tours-section {
-  flex-basis: 70%;
+  margin-bottom: 3.75rem;
 }
-.title-two {
+.tours-title {
   margin-bottom: 3rem;
   text-transform: uppercase;
-  font-size: 2rem;
-  font-family: 'Pathway Gothic One', sans-serif;
-}
-.tours-comtiner {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  font-size: 1.75rem;
 }
 .tours {
   display: flex;
-  flex-basis: 45%;
   margin-bottom: 2.5rem;
   font-family: arial;
 }
-.tours:nth-last-child(-n+2) {
+.tours:last-child {
   margin-bottom: 0;
 }
 .tours-img {
   margin-right: 1.25rem;
-  max-height: 7.1rem;
+  flex-basis: 50%;
 }
-.title-three {
+.tours-title-three {
   margin-bottom: 1rem;
-  font-weight: 400;
-  font-size: 0.75rem;
-  color: #263555;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .tours-item {
   margin-bottom: 1rem;
@@ -42,20 +32,21 @@
 }
 .tours-text {
   margin-bottom: 0.4rem;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: #263555;
 }
 .tours-amount {
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
+  font-family: arial;
   color: #38afe5;
 }
 .buttom-tours {
   display: block;
   margin-top: 2.2rem;
   padding: 0.3rem 0;
-  width: 3.8rem;
-  font-size: 0.7rem;
+  width: 5.75rem;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
   border: 1px solid #b6afaf;
@@ -66,16 +57,13 @@
 /*browse-section*/
 
 .browse-section {
-  margin-bottom: 1.1rem;
+  margin-bottom: 4.25rem;
 }
-.browse-title {
-  margin-bottom: 3rem;
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-family: 'Pathway Gothic One', sans-serif;
-  color: #263555;
+.browse-fr {
+  margin: auto;
+  width: 45%;
 }
-.title-four {
+.tours-title-four {
   margin-bottom: 0.7rem;
   font-size: 0.6rem;
   font-family: arial;
@@ -92,7 +80,7 @@
   position: absolute;
   content: '';
   width: 1.2rem;
-  height: 1.2rem;
+  height: 1rem;
   background-image: url(../img/arrow.png);
   background-size: 60%;
   background-repeat: no-repeat;
@@ -103,7 +91,7 @@
   position: relative;
   padding: 0.2rem 0;
   padding-left: 0.5rem;
-  width: 13rem;
+  flex-basis: 100%;
   font-size: 0.6rem;
   font-family: arial;
   color: #868f8f;
@@ -112,15 +100,18 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-.search-opt {
- background-color: #e3e2e2;
+.browse-sel-section {
+  width: 100%;
 }
-.button-browse {
+.search-opt {
+  background-color: #e3e2e2;
 }
 .button-inp {
   display: inline-block;
   margin-top: 3.7rem;
-  padding: 0.2rem 1rem;
+  padding: 0.3rem 0;
+  width: 3.87rem;
+  text-align: center;
   font-size: 0.7rem;
   font-family: arial;
   border: 1px solid #d0cccc;
@@ -131,11 +122,19 @@
 
 /*search*/
 
-.search .title-four {
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   color: #38afe5;
 }
 .continer-inp {
+  align-self: flex-end;
+  flex-basis: 48%;
   margin-top: 1.6rem;
+}
+.continer-inp:nth-child(-n+2) {
+  margin-top: 0;
 }
 .search-lab {
   font-size: 0.6rem;

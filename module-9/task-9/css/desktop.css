@@ -83,4 +83,41 @@
   .gallery-item:nth-child(9) {
     display: block;
   }
+
+  /*tours*/
+
+  .tours-section {
+    margin-bottom: 0;
+  }
+  .tours-title {
+    font-size: 2rem;
+  }
+  .tours-title-three {
+    font-size: 0.75rem;
+  }
+  .buttom-tours {
+    width: 4rem;
+    font-size: 0.75rem;
+  }
+  .browse-continer {
+    display: block;
+  }
+  .browse-section {
+    margin-bottom: 3rem;
+  }
+  .search {
+    display: block;
+  }
+  .continer-inp:nth-child(2) {
+    margin-top: 2.5rem;
+  }
+  .continer-inp {
+    margin-top: 2.5rem;
+  }
+  .select-wrapp::before {
+    height: 1.05rem;
+  }
+  .search-opt {
+    width: 100%;
+  }
 }
