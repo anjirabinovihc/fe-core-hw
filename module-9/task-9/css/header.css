@@ -1,35 +1,21 @@
-
 .header-page {
-  margin: auto;
-  margin-bottom: 3.87rem;
-  padding-top: 1.4rem;
-  max-width: 64rem;
-  min-width: 20rem;
+  margin-bottom: 3.75rem;
 }
-
-/*logo*/
-
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: auto;
-  margin-bottom: 1.87rem;
-  width: 4.87rem;
-  height: 4.87rem;
+  margin-bottom: 1.5rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-color: white;
 }
 .logo-link {
   display: block;
-  width: 100%;
-  line-height: 4.88rem;
   text-align: center;
-  text-decoration: none;
   font-size: 2.1rem;
+  line-height: 5rem;
   color: #263555;
 }
-
 
 /*nav*/
 
@@ -38,13 +24,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
-  width: 50%;
+  width: 47%;
 }
 .menu-item {
   position: relative;
-  flex-basis: 32%;
-  text-align: center;
-  margin-bottom: 0.8rem;
+  flex-basis: 30%;
+  margin-bottom: 0.5rem;
 }
 .menu-item:nth-last-child(-n+3) {
   margin-bottom: 0;
@@ -54,12 +39,12 @@
 }
 .menu-link {
   display: block;
+  text-align: center;
   text-transform: uppercase;
-  text-decoration: none;
+  line-height: 1.2rem;
   font-size: 1.25rem;
   font-family: 'Pathway Gothic One', sans-serif;
-  color: #ffffff;
-  transition: all 1s;
+  color: white;
 }
 .menu-link:hover {
   color: #263555;
@@ -68,37 +53,32 @@
 /*submenu*/
 
 .submenu {
- position: absolute;
- display: none;
- padding: 0.2rem;
- top: 1.62rem;
- left: 50%;
- transform: translateX(-50%);
- width: 2.75rem;
- background-color: white;
- box-shadow: 0px 0px 5px 0px #000000;
- z-index: 9999;
+  display: none;
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  z-index: 99999;
+  background-color: white;
 }
 .submenu::before {
- position: absolute;
- display: inline-block;
- top: -1%;
- left: 50%;
- transform: translate(-50%, -50%);
- content: '';
- width: 0px;
- height: 0px;
- border-style: solid;
- border-width: 0 5px 10px 5px;
- border-color: transparent transparent #f8f8fc transparent;
+  display: block;
+  position: absolute;
+  top: -1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+	width: 0;
+	height: 0;
+	border-left: 0.31rem solid transparent;
+	border-right: 0.31rem solid transparent;
+	border-bottom: 0.62rem solid white;
 }
 .submenu-link {
- display: block;
- text-align: center;
- text-decoration: none;
- text-transform: uppercase;
- font-size: 0.87rem;
- font-family: 'Pathway Gothic One', sans-serif;
- line-height: 1.1rem;
- color: #6b7488;
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  color: #6b7488;
 }

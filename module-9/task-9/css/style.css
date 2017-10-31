@@ -1,32 +1,26 @@
 @import "base.css";
 @import "typography.css";
 @import "header.css";
+@import "footer.css";
 @import "about.css";
 @import "gallery.css";
 @import "tours.css";
-@import "footer.css";
 @import "tablet.css";
 @import "desktop.css";
-
-.body-page {
-  background-image: url(../img/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/*wrapper*/
-
 .wrapper {
-  margin: auto;
-  padding: 0 2.25rem;
-  padding-top: 3.62rem;
-  padding-bottom: 4.75rem;
-  max-width: 64rem;
-  min-width: 20rem;
-  background-color: #ffffff;
+  padding-top: 1.37rem;
+  padding-bottom: 2.6rem;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 992px) {
+  .wrapper {
+    padding-top: 6rem;
+  }
 }
 
-/*buttom-top*/
+/*bottom-top*/
 
 .bottom-top {
   display: block;

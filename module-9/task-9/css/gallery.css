@@ -1,11 +1,4 @@
-
-.gallery-title {
-  margin-bottom: 2.37rem;
-  font-size: 1.75rem;
-}
 .gallery-item {
-  flex-basis: 100%;
-  position: relative;
   margin-bottom: 2.5rem;
 }
 .gallery-item:nth-last-child(-n+3) {

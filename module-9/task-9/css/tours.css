@@ -1,23 +1,25 @@
 
-.tours-section {
-  margin-bottom: 3.75rem;
-}
-.tours-title {
+.bottom-mr {
   margin-bottom: 3rem;
-  text-transform: uppercase;
-  font-size: 1.75rem;
 }
 .tours {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 2.5rem;
   font-family: arial;
 }
-.tours:last-child {
+.tours:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
+.tours:nth-last-child(-n+2) {
+  display: none;
+}
 .tours-img {
-  margin-right: 1.25rem;
   flex-basis: 50%;
+  max-height: 10.3rem;
+}
+.torse-article {
+  flex-shrink: 0;
 }
 .tours-title-three {
   margin-bottom: 1rem;
@@ -25,7 +27,7 @@
   font-size: 1rem;
 }
 .tours-item {
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 .tours-item:nth-child(3) {
   margin-bottom: 0;
@@ -56,24 +58,20 @@
 
 /*browse-section*/
 
+.browse-row {
+  justify-content: center;
+}
 .browse-section {
   margin-bottom: 4.25rem;
 }
 .browse-fr {
   margin: auto;
-  width: 45%;
-}
-.tours-title-four {
-  margin-bottom: 0.7rem;
-  font-size: 0.6rem;
-  font-family: arial;
-  color: #4e5050;
+  width: 12rem;
 }
 .select-wrapp {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  margin-top: 0.2rem;
 }
 .select-wrapp::before {
   display: block;
@@ -129,14 +127,16 @@
   color: #38afe5;
 }
 .continer-inp {
-  align-self: flex-end;
-  flex-basis: 48%;
   margin-top: 1.6rem;
+}
+.self {
+  align-self: flex-end;
 }
 .continer-inp:nth-child(-n+2) {
   margin-top: 0;
 }
 .search-lab {
+  margin-bottom: 0.3rem;
   font-size: 0.6rem;
   font-family: arial;
   color: #4e5050;
