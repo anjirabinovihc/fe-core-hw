@@ -3,8 +3,8 @@
 @import "header.css";
 @import "footer.css";
 @import "about.css";
-@import "gallery.css";
 @import "tours.css";
+@import "gallery.css";
 @import "tablet.css";
 @import "desktop.css";
 .wrapper {
