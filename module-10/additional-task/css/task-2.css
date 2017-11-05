@@ -1,0 +1,11 @@
+.task-2 {
+  min-height: 29.75rem;
+  background-image: url(../img/backg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-device-pixel-ratio: 2),(min-resolution: 192dpi){
+  .task-2 {
+    background-image: url('../img/backg@2x.jpg');
+  }
+}
