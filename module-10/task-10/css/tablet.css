@@ -27,14 +27,14 @@
 
   /*footer*/
 
-  .footer-nav {
+  .navigation {
     margin: 0;
   }
-  .contact-footer {
+  .contacts {
     display: block;
     margin: 0;
   }
-  .footer-text {
+  .fcontacts__text {
     display: block;
   }
   .tel {
