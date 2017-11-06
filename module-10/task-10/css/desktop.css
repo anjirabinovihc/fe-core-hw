@@ -2,7 +2,7 @@
   .mg-top {
     padding-top: 4rem;
   }
-  .header-page {
+  .header__page {
     position: relative;
     margin: auto;
     margin-bottom: 6rem;
@@ -17,23 +17,23 @@
     width: 8.75rem;
     height: 8.75rem;
   }
-  .menu-item {
+  .menu__item {
     margin-bottom: 0;
   }
-  .logo-link {
+  .logo__link {
     font-size: 3.75rem;
     line-height: 8.75rem;
   }
   .menu {
     width: 70%;
   }
-  .menu-item {
+  .menu__item {
     flex-basis: 10%;
   }
-  .menu-item:nth-child(3) {
+  .menu__item:nth-child(3) {
     margin-right: 10rem;
   }
-  .menu-link {
+  .menu__link {
     font-size: 1.75rem;
   }
   .submenu {

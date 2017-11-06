@@ -3,11 +3,11 @@
     width: 6.25rem;
     height: 6.25rem;
   }
-  .logo-link {
+  .logo__link {
     font-size: 2.75rem;
     line-height: 6.25rem;
   }
-  .menu-link {
+  .menu__link {
     font-size: 1.5rem;
     line-height: 1.5rem;
   }
