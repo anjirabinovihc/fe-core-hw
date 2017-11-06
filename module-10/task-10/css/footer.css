@@ -92,6 +92,9 @@
   height: 3rem;
   fill: white;
 }
+.icon:hover {
+  fill: #30455b;
+}
 
 /*copyright*/
 
