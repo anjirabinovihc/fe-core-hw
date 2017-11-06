@@ -1,5 +1,7 @@
+@import "nav.css";
 .wrapper {
   display: flex;
+  background-color: black;
 }
 .icon {
   width: 10rem;
