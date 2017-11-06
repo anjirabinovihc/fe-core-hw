@@ -1,4 +1,7 @@
 @media screen and (min-width: 992px) {
+  .mg-top {
+    padding-top: 4rem;
+  }
   .header-page {
     position: relative;
     margin: auto;
