@@ -40,25 +40,6 @@
   .tel {
     margin: 0.5rem 0;
   }
-  .social-link {
-    /*width: 2.5rem;*/
-    /*height: 2.5rem;*/
-  }
-  .bg-twitter {
-      background: url('../img/css_sprites.png') -10px -10px;
-  }
-  .bg-facebook {
-      background: url('../img/css_sprites.png') -70px -10px;
-  }
-  .bg-google {
-      background: url('../img/css_sprites.png') -10px -70px;
-  }
-  .bg-in {
-      background: url('../img/css_sprites.png') -70px -70px;
-  }
-  .social-continer {
-    width: 12rem;
-  }
   .copyright-text {
     font-size: 0.75rem;
   }

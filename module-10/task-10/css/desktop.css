@@ -42,14 +42,4 @@
   .gallery-item:last-child {
     display: block;
   }
-
-  /*footer*/
-
-  .row-footer {
-    margin: auto;
-    width: 85%;
-  }
-  .social-continer {
-    width: 14rem;
-  }
 }
