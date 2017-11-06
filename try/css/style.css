@@ -2,9 +2,6 @@
   display: flex;
 }
 .icon {
-  /*background-image: url(../img/twitter.svg);*/
-  /*background-size: cover;*/
-  /*background-repeat: no-repeat;*/
   width: 10rem;
   height: 10rem;
 }

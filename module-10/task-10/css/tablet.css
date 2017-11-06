@@ -41,8 +41,8 @@
     margin: 0.5rem 0;
   }
   .social-link {
-    width: 2.5rem;
-    height: 2.5rem;
+    /*width: 2.5rem;*/
+    /*height: 2.5rem;*/
   }
   .bg-twitter {
       background: url('../img/css_sprites.png') -10px -10px;
