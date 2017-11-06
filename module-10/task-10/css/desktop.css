@@ -1,0 +1,55 @@
+@media screen and (min-width: 992px) {
+  .header-page {
+    position: relative;
+    margin: auto;
+    margin-bottom: 6rem;
+    max-width: 64rem;
+  }
+  .logo {
+    position: absolute;
+    margin-bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8.75rem;
+    height: 8.75rem;
+  }
+  .menu-item {
+    margin-bottom: 0;
+  }
+  .logo-link {
+    font-size: 3.75rem;
+    line-height: 8.75rem;
+  }
+  .menu {
+    width: 70%;
+  }
+  .menu-item {
+    flex-basis: 10%;
+  }
+  .menu-item:nth-child(3) {
+    margin-right: 10rem;
+  }
+  .menu-link {
+    font-size: 1.75rem;
+  }
+  .submenu {
+    top: 4.4rem;
+  }
+
+  /*gallery*/
+
+  .gallery-item:last-child {
+    display: block;
+  }
+
+  /*footer*/
+
+  .row-footer {
+    margin: auto;
+    width: 85%;
+  }
+  .social-continer {
+    width: 14rem;
+  }
+}

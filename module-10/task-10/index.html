@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
-  <title>Task-9</title>
+  <title>Task-10</title>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="container">
     <header class="header-page">
       <h1 class="logo">
         <a class="logo-link" href="#">Journey</a>
@@ -57,43 +57,70 @@
 
    <!-- center -->
 
-    <section class="container center">
+    <section class="center">
       <h2 class="about-title">Our Gallery</h2>
      <div class="row">
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/waterfall.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/waterfall.jpg 1x,img/waterfall@2x.jpg 2x">
+            <img src="img/waterfall.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/hom.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/hom.jpg 1x,img/hom@2x.jpg 2x">
+            <img src="img/hom.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/hotel.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/hotel.jpg 1x,img/hotel@2x.jpg 2x">
+            <img src="img/hotel.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/greece.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/greece.jpg 1x,img/greece@2x.jpg 2x">
+            <img src="img/greece.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/Island.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/Island.jpg 1x,img/Island@2x.jpg 2x">
+            <img src="img/Island.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/birds.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/birds.jpg 1x,img/birds@2x.jpg 2x">
+            <img src="img/birds.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/castle.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/castle.jpg 1x,img/castle@2x.jpg 2x">
+            <img src="img/castle.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/paris.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/paris.jpg 1x,img/paris@2x.jpg 2x">
+            <img src="img/paris.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
         <div class="gallery-item col-12 col-md-6 col-lg-4">
-          <img src="img/mountain.jpg" alt="" class="gallery-img">
+          <picture class="gallery-img">
+            <source srcset="img/mountain.jpg 1x,img/mountain@2x.jpg 2x">
+            <img src="img/mountain.jpg" alt="Пляж">
+          </picture>
           <a href="#" class="gallery-link"></a>
         </div>
      </div>
@@ -106,7 +133,7 @@
   <!-- footer -->
 
   <footer class="footer-page">
-  <div class="container container-footer">
+  <div class="container-footer">
     <div class="row row-footer">
 
          <!-- footer-nav -->
@@ -135,7 +162,11 @@
        <div class="social-continer">
          <ul class="social">
            <li class="social-item">
-             <a href="#" class="social-link bg-twitter"></a>
+             <a href="#" class="social-link bg-twitter">
+               <svg class="icon">
+                 <use href="img/facebook.svg#facebook"></use>
+               </svg>
+             </a>
            </li>
            <li class="social-item">
              <a href="#" class="social-link bg-facebook"></a>
@@ -153,6 +184,6 @@
 
          <p class="copyright-text">Journey &#169; 2013 <i class="copyright-border">Privacy Policy</i>Website designed by TemplateMonster.com</p>
       </footer>
-  </div>
+    </div>
  </body>
 </html>
