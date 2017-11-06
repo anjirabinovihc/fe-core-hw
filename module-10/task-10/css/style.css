@@ -1,10 +1,12 @@
 @import "base.css";
 @import "typography.css";
 @import "header.css";
+@import "logo.css";
 @import "footer.css";
 @import "gallery.css";
 @import "tablet.css";
 @import "desktop.css";
+
 
 .center {
   padding: 3.37rem 2.25rem;

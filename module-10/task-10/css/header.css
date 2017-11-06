@@ -1,20 +1,12 @@
 .header__page {
   margin-bottom: 3.75rem;
 }
-.logo {
+
+/*logo*/
+
+.mg__logo {
   margin: auto;
   margin-bottom: 1.5rem;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  background-color: white;
-}
-.logo__link {
-  display: block;
-  text-align: center;
-  font-size: 2.1rem;
-  line-height: 5rem;
-  color: #263555;
 }
 
 /*nav*/
