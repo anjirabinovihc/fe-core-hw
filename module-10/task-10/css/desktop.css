@@ -42,4 +42,10 @@
   .gallery-item:last-child {
     display: block;
   }
+
+  /*footer*/
+
+  .social-continer {
+    width: 35%;
+  }
 }
