@@ -25,6 +25,7 @@
 }
 
 .container-footer {
+  margin-bottom: px-rem(28px);
   padding-top: px-rem(24px);
   padding-bottom: px-rem(32px);
   background-color: #30455b;
@@ -94,9 +95,9 @@
 // copyright-text
 
 .copyright-text {
-  margin-top: 0.7rem;
+  margin-top: px-rem(11px);
   text-align: center;
-  font-size: 0.5rem;
+  font-size: px-rem(9px);
   font-family: arial;
   color: #ffffff;
 }
