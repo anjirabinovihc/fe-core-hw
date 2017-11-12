@@ -1,0 +1,78 @@
+@function px-rem($rem){
+  $box: $rem / 16px;
+  @return #{$box}rem;
+}
+@mixin link($dplay, $lHeight, $align) {
+  display: $dplay;
+  line-height: $lHeight;
+  text-align: $align;
+  text-transform: uppercase;
+}
+@mixin center() {
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@media screen and (min-width: 992px) {
+  .header-page {
+    position: relative;
+    margin-bottom: px-rem(80px);
+    padding-top: px-rem(50px);
+  }
+  .logo {
+    position: absolute;
+    @include center();
+    width: px-rem(140px);
+  }
+  .logo-link {
+    @include link(block, 8.75rem, center);
+    font-size: px-rem(60px);
+  }
+
+  // menu
+
+  .menu {
+    width: 80%;
+  }
+  .menu-item {
+    flex-basis: 10%;
+    &:nth-child(3) {
+      margin-right: px-rem(176px);
+    }
+  }
+  .menu-link {
+    font-size: px-rem(28px);
+  }
+
+  // center
+
+  .about-title {
+    font-size: px-rem(32px);
+  }
+  .gallery-item:last-child {
+    display: block;
+  }
+
+  // footer
+
+  .navigation {
+    flex-basis: 50%;
+  }
+  .navigation-link {
+   font-size: px-rem(16px);
+  }
+  .contacts {
+    flex-basis: 16%;
+  }
+  .contacts-title {
+    font-size: px-rem(18px);
+  }
+  .contacts-text {
+    font-size: px-rem(12px);
+  }
+  .social {
+    width: 28%;
+  }
+}

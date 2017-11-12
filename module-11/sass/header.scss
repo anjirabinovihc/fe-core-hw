@@ -68,7 +68,22 @@
   background-color: white;
   z-index: 9999;
 }
+.submenu::before {
+  display: block;
+  position: absolute;
+  top: -1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+	width: 0;
+	height: 0;
+	border-left: 0.31rem solid transparent;
+	border-right: 0.31rem solid transparent;
+	border-bottom: 0.62rem solid white;
+}
 .submenu-link {
   @include link(block, 1.2rem, center);
+  font-size: px-rem(20px);
+  font-family: 'Pathway Gothic One', sans-serif;
   color: #6b7488;
 }

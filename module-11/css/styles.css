@@ -4,6 +4,7 @@
 @import url(center.css);
 @import url(footer.css);
 @import url(tablet.css);
+@import url(desktop.css);
 /*bottom-top*/
 .bottom-top {
   display: block;
