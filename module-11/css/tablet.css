@@ -20,8 +20,4 @@
   .info::before {
     display: none; }
   .social {
-    width: 40%; }
-  .copyright-border::before {
-    height: 0.625rem; }
-  .copyright-border::after {
-    height: 0.625rem; } }
+    width: 40%; } }

@@ -81,11 +81,11 @@
 }
 .social-link {
   display: block;
-  line-height: 3rem;
+  line-height: px-rem(48px);
 }
 .icon {
-  width: 3rem;
-  height: 3rem;
+  width: px-rem(48px);
+  height: px-rem(48px);
   fill: white;
   &:hover {
     fill: #30455b;
@@ -106,7 +106,7 @@
   margin: 0 px-rem(6px);
   content: '';
   width: 1px;
-  height: px-rem(6px);
+  height: px-rem(10px);
   background-color: #ffffff;
 }
 .copyright-border::before {
@@ -114,6 +114,6 @@
   margin: 0 px-rem(6px);
   content: '';
   width: 1px;
-  height: px-rem(6px);
+  height: px-rem(10px);
   background-color: #ffffff;
 }
