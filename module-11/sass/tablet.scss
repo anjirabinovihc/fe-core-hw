@@ -47,4 +47,10 @@
  .social {
    width: 40%;
  }
+ .copyright-border::before {
+   height: px-rem(10px);
+ }
+ .copyright-border::after {
+   height: px-rem(10px);
+ }
 }
