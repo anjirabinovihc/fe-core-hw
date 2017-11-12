@@ -1,9 +1,42 @@
 @import "nav.css";
 .wrapper {
   display: flex;
-  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 70rem;
+  height: 100vh;
+  /*background-color: black;*/
 }
 .icon {
   width: 10rem;
   height: 10rem;
+}
+.box {
+  width: 20rem;
+  height: 20rem;
+  transition: 2s;
+}
+.box:hover {
+  transform: scaleX(2.1);
+}
+.sub-box {
+  display: none;
+  width: 10rem;
+  height: 10rem;
+  transition-property: width;
+  transition-duration: .2s;
+}
+.box:hover .sub-box {
+  display: block;
+  width: 15rem;
+}
+.black {
+  background-color: black;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
 }

@@ -1,8 +1,14 @@
+
+.nav__page {
+  width: 50%;
+}
 .menu {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   justify-content: space-between;
-  width: 47%;
+  width: 100%;
+  transition: all 50s;
+  transition-timing-function: ease-out;
 }
 .menu__item {
   position: relative;
@@ -22,7 +28,7 @@
   line-height: 1.2rem;
   font-size: 1.25rem;
   font-family: 'Pathway Gothic One', sans-serif;
-  color: white;
+  color: black;
 }
 .menu__link:hover {
   color: #263555;
@@ -31,7 +37,7 @@
 /*submenu*/
 
 .submenu {
-  display: none;
+  /*display: none;*/
   position: absolute;
   top: 4rem;
   left: 50%;
@@ -39,6 +45,15 @@
   padding: 0.5rem;
   z-index: 99999;
   background-color: white;
+  border: 2px solid black;
+  transition: all 1s;
+  transition-property: border-style, background-color;
+  transition-duration: all 10s;
+  transition-timing-function: ease-in, ease, linear;
+}
+.submenu:hover {
+  background-color: red;
+  border-style: dashed;
 }
 .submenu::before {
   display: block;

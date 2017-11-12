@@ -1,0 +1,22 @@
+@function px-rem($rem){
+  $box: $rem / 16px;
+  @return #{$box}rem;
+}
+
+.center {
+  padding: px-rem(60px) px-rem(40px);
+  background-color: white;
+}
+.about-title {
+  font-size: px-rem(28px);
+  margin-bottom: px-rem(40px);
+}
+.gallery-item {
+  margin-bottom: px-rem(40px);
+  &:nth-child(n+6) {
+    margin-bottom: 0;
+  }
+  &:nth-child(n+7) {
+    display: none;
+  }
+}

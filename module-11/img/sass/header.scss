@@ -1,0 +1,74 @@
+
+@function px-rem($rem){
+  $box: $rem / 16px;
+  @return #{$box}rem;
+}
+@mixin link($dplay, $lHeight, $align) {
+  display: $dplay;
+  line-height: $lHeight;
+  text-align: $align;
+  text-transform: uppercase;
+}
+@mixin flex($dflex: flex, $jcontent: space-between, $fwrap: wrap) {
+  display: $dflex;
+  justify-content: $jcontent;
+  flex-wrap: $fwrap;
+}
+
+// header-page
+
+.header-page {
+  margin-bottom: px-rem(60px);
+}
+.logo {
+  margin: auto;
+  margin-bottom: px-rem(30px);
+  width: px-rem(80px);
+}
+.logo-link {
+  @include link(block, 5rem, center);
+  font-size: px-rem(34px);
+  background-color: white;
+  border-radius: 50%;
+  color: #263555;
+}
+
+// menu
+
+.menu {
+  margin: auto;
+  width: 50%;
+  @include flex();
+}
+.menu-item {
+  position: relative;
+  flex-basis: 30%;
+  &:hover .submenu {
+    display: block;
+  }
+}
+.menu-link {
+  @include link(block, 2.5rem, center);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: px-rem(20px);
+  color: white;
+  &:hover {
+    color: #263555;
+  }
+}
+
+// submenu
+
+.submenu {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: px-rem(8px);
+  background-color: white;
+  z-index: 9999;
+}
+.submenu-link {
+  @include link(block, 1.2rem, center);
+  color: #6b7488;
+}

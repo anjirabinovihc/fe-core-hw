@@ -1,0 +1,62 @@
+@function px-rem($rem){
+  $box: $rem / 16px;
+  @return #{$box}rem;
+}
+@mixin link($dplay, $lHeight, $align) {
+  display: $dplay;
+  line-height: $lHeight;
+  text-align: $align;
+  text-transform: uppercase;
+}
+@mixin flex($dflex: flex, $jcontent: space-between, $fwrap: wrap) {
+  display: $dflex;
+  justify-content: $jcontent;
+  flex-wrap: $fwrap;
+}
+@mixin element($ewidth, $eheight) {
+  display: inline-block;
+  content: '';
+  width: $ewidth;
+  height: $eheight;
+}
+
+.container-footer {
+  padding-top: px-rem(24px);
+  padding-bottom: px-rem(32px);
+  background-color: #30455b;
+}
+.row-footer {
+  justify-content: center;
+}
+
+// navigation
+
+.navigation {
+  @include flex();
+  flex-basis: 70%;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+.navigation-link {
+  @include link(block, 2rem, center);
+  flex-basis: 30%;
+  font-size: px-rem(14px);
+  color: white;
+}
+
+// contacts
+
+.contacts {
+  display: flex;
+  flex-basis: 100%;
+  color: white;
+}
+.contacts-title {
+  font-size: px-rem(14px);
+  color: white;
+}
+.contacts-text {
+  font-size: px-rem(10px);
+  &:nth-child(1)::before {
+
+  }
+}

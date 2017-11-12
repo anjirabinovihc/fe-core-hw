@@ -1,0 +1,29 @@
+@import "typography.css";
+@import "base.css";
+@import "header.css";
+@import "center.css";
+@import "footer.css";
+
+
+/*bottom-top*/
+
+.bottom-top {
+  display: block;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #38afe5;
+}
+.bottom-top::after {
+  display: inline-block;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/arrow-top.png);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
