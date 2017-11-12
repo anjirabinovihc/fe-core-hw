@@ -1,0 +1,50 @@
+@function px-rem($rem){
+  $box: $rem / 16px;
+  @return #{$box}rem;
+}
+@mixin link($dplay, $lHeight, $align) {
+  display: $dplay;
+  line-height: $lHeight;
+  text-align: $align;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: px-rem(104px);
+  }
+  .logo-link {
+    @include link(block, 6.5rem, center);
+    font-size: px-rem(44px);
+  }
+}
+
+// menu
+
+.menu-link {
+  font-size: px-rem(24px);
+}
+
+// center
+
+.gallery-item:nth-child(n+6) {
+  display: block;
+}
+.gallery-item:nth-child(6) {
+  margin-bottom: px-rem(40px);
+}
+.gallery-item:last-child {
+  display: none;
+}
+
+// footer
+
+.tel::before {
+  display: none;
+}
+.info::before {
+  display: none;
+}
+.social {
+  width: 40%;
+}
